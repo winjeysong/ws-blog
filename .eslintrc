@@ -1,0 +1,25 @@
+/**
+ *  @ custom eslint rules extend airbnb
+ */
+{
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": ["error", "never"],
+      "quotes": ["error", "double"],
+      "indent": ["error", 4],
+      "react/jsx-indent-props": ["error", 4],
+      "react/jsx-indent": ["error", 4],
+      "react/prefer-stateless-function": 0,
+      "spaced-comment": 0,
+      "no-multi-spaces": 0
+    },
+    "plugins": [
+        "eslint-plugin-react",
+        "eslint-plugin-jsx-a11y",
+        "eslint-plugin-import"
+    ],
+    "env": {
+      "browser": true,
+      "es6": true
+    }
+  }
