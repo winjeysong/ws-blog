@@ -7,7 +7,7 @@
 // Grab NODE_ENV and REACT_APP_* environment variables and prepare them to be
 // injected into the application via DefinePlugin in Webpack configuration.
 module.exports = (publicUrl) => {
-    let raw = Object
+    const raw = Object
         .keys(process.env)
         .filter(key => (/^REACT_APP_/i).test(key))
         .reduce((env, key) => {
@@ -25,7 +25,7 @@ module.exports = (publicUrl) => {
             ORIGIN: "http://localhost:3333"
         });
     // Stringify all values so we can feed into Webpack DefinePlugin
-    let stringified = {
+    const stringified = {
         "process.env": Object
             .keys(raw)
             .reduce((env, key) => {
