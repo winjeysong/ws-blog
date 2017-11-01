@@ -7,7 +7,7 @@ const propTypes = {
     isList: PropTypes.bool.isRequired
 };
 
-function Article ({ article, isList }) {
+function Article({ article, isList }) {
     const articleClassName = classNames("article-content", { "list-mode": isList === false });
 
     return (
