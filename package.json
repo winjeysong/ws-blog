@@ -81,7 +81,7 @@
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-animations": "^0.1.0",
-    "react-bootstrap": "^0.30.8",
+    "react-bootstrap": "^0.31.5",
     "react-copy-to-clipboard": "^5.0.0",
     "react-dev-utils": "^0.5.2",
     "react-dom": "^15.4.2",
